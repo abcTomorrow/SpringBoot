@@ -10,6 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class DemoMybatisApplication {
 
 	public static void main(String[] args) {
+		System.out.println("111");
 		SpringApplication.run(DemoMybatisApplication.class, args);
 	}
 }
